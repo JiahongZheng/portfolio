@@ -1,0 +1,99 @@
+/* 
+	Global classes 
+					*/
+body {
+	font-family: Avenir, sans-serif;
+}
+
+summary{
+	margin: 0;
+ 	padding: 0;
+ 	font-size: 22px;
+ 	font-weight: 5px;
+}
+details{
+	margin: 0;
+ 	padding: 0;
+ 	font-size: 22px;
+ 	font-weight: 5px;
+}
+.project{
+  display: inline-block;
+  vertical-align: top;
+  width: 90%;
+  margin: 5%;
+  padding: 15px;
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #0003;
+}
+.projectImg{
+	width: 400px;
+	height:300px;
+	float: left;
+  vertical-align: center;
+  algin:center;
+	hspace:100;
+  padding: 30px 30px 30px 30px;
+}
+.projectName{
+	
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 70px;
+  margin-bottom: auto;
+  width: 20%;
+  height: auto;
+}
+
+footer{
+  font-size: 25px;
+  margin-left: 10px;
+}
+#email{
+	font-size: 25px;
+}
+#phone{
+  font-size: 25px;
+}#about{
+  font-size: 25px;
+}
+
+.contact-info{
+  margin-left: 10px;
+}
+#poem {
+  background-color: #E2D2D2;
+  text-align: center;
+  font-family: Brush Script MT (cursive);
+  font-size: 130%;
+}
+
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #A2B59F;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #BFC8D7;}
+
+ul.topnav li a.active {background-color: #E3E2B4;}
+
+ul.topnav li.right {float: right;}
