@@ -27,17 +27,48 @@ details{
   border-radius: 5px;
   box-shadow: 5px 5px 5px #0003;
 }
+.hobby1{
+  /*display: inline-block;*/
+  display: table-cell;
+  vertical-align: top;
+  width: 40%;
+  margin: 5%;
+  padding: 15px;
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #f9d9ca;
+}
+.hobby2{
+  /*display: inline-block;*/
+  display: table-cell;
+  vertical-align: top;
+  width: 40%;
+  margin: 5%;
+  padding: 15px;
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #f9d9ca;
+}
 .projectImg{
+  width: 400px;
+  height:300px;
+  float: left;
+  vertical-align: center;
+  algin:center;
+  hspace:100;
+  padding: 15px;
+}
+.hobbyImg{
 	width: 400px;
 	height:300px;
 	float: left;
   vertical-align: center;
   algin:center;
-	hspace:100;
-  padding: 30px 30px 30px 30px;
+/*	hspace:100;*/
+  padding: 15px 25px 25px 65px;
 }
-.projectName{
-	
+.hobbyName{
+	padding: 15px 25px 25px 85px;
 }
 
 .center {
